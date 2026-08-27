@@ -2,7 +2,7 @@ Todo App with Authentication
 
 A clean and secure personal Todo application built with **Flask**, **Flask-Login**, **SQLAlchemy**, and **Tailwind CSS**.
 
-Live Demo: (coming soon after deployment)
+Live Demo: (https://to-do-app-95wp.onrender.com)
 
 Features
 - User Registration & Login
