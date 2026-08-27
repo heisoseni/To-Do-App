@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Home · Todo App{% endblock %}
+
+{% block content %}
+<section class="text-center max-w-2xl mx-auto pt-10">
+  <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
+    Organize your day <span class="text-brand">simply</span>
+  </h1>
+  <p class="text-slate-400 text-lg mb-10">
+    A clean and focused todo app with secure authentication.
+  </p>
+
+  <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+    <a href="{{ url_for('register') }}"
+       class="w-full sm:w-auto px-8 py-3 rounded-xl bg-brand hover:bg-sky-400 text-slate-900 font-semibold transition">
+      Get Started
+    </a>
+    <a href="{{ url_for('login') }}"
+       class="w-full sm:w-auto px-8 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium transition">
+      Sign In
+    </a>
+  </div>
+</section>
+{% endblock %}
